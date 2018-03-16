@@ -117,4 +117,3 @@ try:
         print(batch_mAP, batch_tloss, batch_rloss)
 except tf.errors.OutOfRangeError:
     print('Done training')
-    
